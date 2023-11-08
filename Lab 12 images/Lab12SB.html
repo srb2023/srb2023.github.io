@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Lab12_Postcard_SB.html</title>
+<meta charset="utf-8">
+<!--Table Practice, Sara Barnett, H02, 10/1/2023-->
+<style>
+body{background-color:SteelBlue}
+
+.banner{
+background-color:white}
+
+.funpics{position:absolute;
+top:100px;
+left:350px;
+width:250px;
+text-align:justify;
+padding:15px;
+font-size:20pt;
+background-color:white}
+
+.morepics{
+border:10px solid white;
+width:300px;
+text-align:center}
+
+.whole{border:10px solid white;
+width:700px;
+background-color:pink}
+
+h1{color:SteelBlue;
+text-align:center}
+</style>
+
+<script>
+function travels()
+{document.getElementById("lava").src="emma2.jpg"
+}
+</script>
+</head>
+<body>
+<div class="whole">
+<header><h1 class="banner">Greeting Card for Emma!</h1></header>
+
+<div class="morepics"><img onmouseover="travels()" src="emma1.jpg" alt="waterfall" width="300" height="400" id="lava"></div>
+
+<div class="funpics">
+Hi Emma! Hope you are doing great, I miss you. Love Sara.
+</div></div>
+</body>
+</html>
